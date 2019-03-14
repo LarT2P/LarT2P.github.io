@@ -1,17 +1,8 @@
 # Document:
 # http://simiki.org/docs/configuration.html
 
-url:
-title: Lart的个人wiki
-keywords: technology, machine learning, deep learning
-description: 看过的，学过的，记录的
-author: Lart Pang
-
-root: /wiki
-
-deploy:
-    - type: git
-      remote: origin
-      branch: gh-pages
-
-theme: simple
+url: 
+title: 
+keywords: 
+description: 
+author: 
