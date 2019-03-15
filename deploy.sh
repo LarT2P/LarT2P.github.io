@@ -11,22 +11,12 @@ then
     echo '*.pyc\noutput/' > .gitignore
     exit 0
 else
-    simiki g
     echo "生成文件"
-
-    cd docs
-    echo "进入docs"
-
-    rm -rf ./*
-    echo "删除docs下原有文件"
-
-    cp -r ../output/* ./
-    echo "拷贝output文件到docs"
+    simiki g
 
     echo "提交文件"
-    cd ..
     git add .
     git commit -m "$1"
-    git pull origin master
+    # git pull origin master
     git push origin master
 fi

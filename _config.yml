@@ -6,9 +6,9 @@ author: Lart2P
 
 root: /
 source: content
-destination: output
+destination: docs
 themes_dir: themes
-theme: simple2
+theme: simple
 
 default_ext: md
 pygments: true
