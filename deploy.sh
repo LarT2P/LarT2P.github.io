@@ -14,15 +14,9 @@ then
     exit 0
 else
     simiki g
-    cd output
+    cp -r output/ docs/
     git add .
-    git commit -am "$1"
-    git pull origin gh-pages
-    git push origin gh-pages
-    cd ..
-
-    git add .
-    git commit -am "$1"
+    git commit -m "$1"
     git pull origin master
     git push origin master
 fi
