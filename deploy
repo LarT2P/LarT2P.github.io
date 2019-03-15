@@ -19,6 +19,6 @@ else
     echo "提交文件"
     git add .
     git commit -m "$1"
-    # git pull origin master
+    git pull origin master
     git push origin master
 fi
