@@ -12,8 +12,9 @@ then
     exit 0
 else
     simiki g
-    cd output
-    cp -r . docs/
+    cd docs
+    rm -rf ./*
+    cp -r ../output/* docs/
     cd ..
     git add .
     git commit -m "$1"
