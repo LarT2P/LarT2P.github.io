@@ -1,10 +1,10 @@
-url:
+url: https://lart2p.github.io/wiki/
 title: Lart的个人WIKI
 keywords: 机器学习, 深度学习, 技术
 description: 看到的, 用到的.
 author: Lart2P
 
-root: /
+root: /wiki/
 source: content
 destination: docs
 themes_dir: themes
