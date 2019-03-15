@@ -14,7 +14,7 @@ else
     simiki g
     cd docs
     rm -rf ./*
-    cp -r ../output/* docs/
+    cp -r ../output/* ./
     cd ..
     git add .
     git commit -m "$1"
